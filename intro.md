@@ -8,7 +8,11 @@ Para abordar este problema, nos interesa partir del estudio de los mecanismos in
 ## Metodología
 Nuestra metodología es fundamentalmente teórica y computacional, y nos vamos a apoyar en dos tipos de cálculos: dinámica molecular para determinar propiedades térmicas y cinécticas, y DFT para el cálculo de propiedades electrónicas y para el sampleo de la PES del sistema. A su vez, emplearemos métodos de machine learning al construir potenciales de interacción para las MDs entrenados para imitar la PES calculada por DFT.
 
-
+### Funcional de XC y pseudopotenciales para DFT
+| SCAN Soft | SCAN Hard | SCAN Inter | PseudoDojo (PBE) | Wien2k (PBE) |Exp |
+| --- | --- | --- | --- | --- | --- |
+| 80 Ry | 150 Ry | 120 Ry | 80 Ry | All Electron |   |
+| 6.45 | 6.51 | 6.50 | 6.45 | 6.48 | 6.52 |
 
 ## Referencias
 - Sherman, M. P. (1984). Hydrogen combustion in nuclear plant accidents and associated containment loads. Nucl. Eng. Des., 82(1), 13–24. doi: 10.1016/0029-5493(84)90263-2
