@@ -13,12 +13,19 @@ El funcional más común empleado en DFT es el funcional PBE, sin embargo tiene 
 
 Se ha señalado que al trabajar con códigos de ondas planas y pseudopotenciales, es conveniente o en algunos casos necesario, emplear pseudopotenciales generados con el mismo funcional de DFT que se emplea en el cálculo de ondas planas, en particular para el funcional SCAN (Yao & Kanai, 2017). Empleamos en nuestros cálculos los pseudopotenciales de H y O publicados por Yao, sin embargo los autores no han publicado uno para el zirconio, por lo que construimos el propio con el método y el programa de los autores, quienes nos han cedido su programa amablemente. 
 
-En la próxima tabla mostramos los resultados para 3 pseudopotenciales que generamos para SCAN (con distintos radios de pseudización) y los resultados de su testeo para Zr metálico. Además, comparamos con cálculos de referencia que incluyen el cálculo con pseudopotenciales de PBE, el cálculo all electron con PBE y la medición experimental a baja temperatura (4K). 
+En la próxima tabla mostramos los resultados para varios pseudopotenciales que generamos para SCAN, con distintos radios de pseudización y configuración electrónica de referencia, y los resultados de su testeo para h-Zr metálico y m-ZrO2. Además, comparamos con cálculos de referencia que incluyen el cálculo con pseudopotenciales de PBE, el cálculo all electron con PBE y la medición experimental a baja temperatura (4K). 
 
-| SCAN Soft | SCAN Hard | SCAN Inter | PseudoDojo (PBE) | Wien2k (PBE) | Exp |
-| --- | --- | --- | --- | --- | --- |
-| 80 Ry | 150 Ry | 120 Ry | 80 Ry | All Electron |   |
-| 6.45 | 6.51 | 6.50 | 6.45 | 6.48 | 6.52 |
+| | Zr+2 - soft |  Zr+2 - hard | Zr* - soft | Zr* - hard |
+| - | --- | --- | --- | --- |
+| Conf Ele | [Kr] 4d2 5s0 | [Kr] 4d2 5s0 | [Kr] 4d4 5s0 | [Kr] 4d4 5s0 |
+| E cut | 80 Ry | 100 Ry | 80 Ry | 100 Ry |
+| Densidad h-Zr | 6.45 | 6.51 | 6.50 | 6.45 |
+| Densidad m-ZrO2 |  | 5.779 | 5.779 | |
+
+| | PseudoDojo (PBE) | Wien2k (PBE) | Exp |
+| - | --- | --- | --- |
+| aa | 80 Ry | All Electron |   |
+| Densidad h-Zr | 6.45 | 6.48 | 6.52 |
 
 ## Referencias
 - Sherman, M. P. (1984). Hydrogen combustion in nuclear plant accidents and associated containment loads. Nucl. Eng. Des., 82(1), 13–24. doi: 10.1016/0029-5493(84)90263-2
