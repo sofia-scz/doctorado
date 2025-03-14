@@ -19,13 +19,14 @@ En la próxima tabla mostramos los resultados para varios pseudopotenciales que 
 | - | --- | --- | --- | --- |
 | Conf Ele | [Kr] 4d2 5s0 | [Kr] 4d2 5s0 | [Kr] 4d4 5s0 | [Kr] 4d4 5s0 |
 | E cut | 80 Ry | 100 Ry | 80 Ry | 100 Ry |
-| Densidad h-Zr | 6.45 | 6.51 | 6.50 | 6.45 |
-| Densidad m-ZrO2 |  | 5.779 | 5.779 | |
+| Densidad h-Zr | 6.498 | 6.501 | 6.484 | 6.509 |
+| Densidad m-ZrO2 | 5.775 | 5.779 | 5.779 | 5.779 |
 
 | | PseudoDojo (PBE) | Wien2k (PBE) | Exp |
 | - | --- | --- | --- |
 | aa | 80 Ry | All Electron |   |
 | Densidad h-Zr | 6.45 | 6.48 | 6.52 |
+| Densidad m-ZrO2 |   |   | 5.78 |
 
 ## Referencias
 - Sherman, M. P. (1984). Hydrogen combustion in nuclear plant accidents and associated containment loads. Nucl. Eng. Des., 82(1), 13–24. doi: 10.1016/0029-5493(84)90263-2
