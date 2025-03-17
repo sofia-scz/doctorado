@@ -15,18 +15,13 @@ Se ha señalado que al trabajar con códigos de ondas planas y pseudopotenciales
 
 En la próxima tabla mostramos los resultados para varios pseudopotenciales que generamos para SCAN, con distintos radios de pseudización y configuración electrónica de referencia, y los resultados de su testeo para h-Zr metálico y m-ZrO2. Además, comparamos con cálculos de referencia que incluyen el cálculo con pseudopotenciales de PBE, el cálculo all electron con PBE y la medición experimental a baja temperatura (4K). 
 
-| | Zr+2 - soft |  Zr+2 - hard | Zr* - soft | Zr* - hard |
-| - | --- | --- | --- | --- |
-| Conf Ele | [Kr] 4d2 5s0 | [Kr] 4d2 5s0 | [Kr] 4d4 5s0 | [Kr] 4d4 5s0 |
-| E cut | 80 Ry | 100 Ry | 80 Ry | 100 Ry |
-| Densidad h-Zr | 6.498 | 6.501 | 6.484 | 6.509 |
-| Densidad m-ZrO2 | 5.775 | 5.779 | 5.779 | 5.779 |
+| | Zr+2 - soft |  Zr+2 - hard | Zr* - soft | Zr* - hard | PseudoDojo (PBE) | Wien2k (PBE) | Exp |
+| - | --- | --- | --- | --- | --- | --- | --- |
+| Pseudo Conf Ele Ref | [Kr] 4d2 5s0 | [Kr] 4d2 5s0 | [Kr] 4d4 5s0 | [Kr] 4d4 5s0 | [Kr] 4d3 5s1 |  All electron | |
+| E cut | 80 Ry | 100 Ry | 80 Ry | 100 Ry | 80 Ry | All electron |
+| Densidad h-Zr | 6.503 | 6.504 | 6.486 | 6.507 | 6.45 | 6.48 | 6.52 |
+| Densidad m-ZrO2 | 5.775 | 5.779 | 5.779 | 5.779 |   |   | 5.78 |
 
-| | PseudoDojo (PBE) | Wien2k (PBE) | Exp |
-| - | --- | --- | --- |
-| aa | 80 Ry | All Electron |   |
-| Densidad h-Zr | 6.45 | 6.48 | 6.52 |
-| Densidad m-ZrO2 |   |   | 5.78 |
 
 ## Referencias
 - Sherman, M. P. (1984). Hydrogen combustion in nuclear plant accidents and associated containment loads. Nucl. Eng. Des., 82(1), 13–24. doi: 10.1016/0029-5493(84)90263-2
