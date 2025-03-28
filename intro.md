@@ -20,7 +20,7 @@ En la próxima tabla mostramos los resultados para varios pseudopotenciales que 
 | Pseudo Conf Ele Ref | [Kr] 4d2 5s0 | [Kr] 4d2 5s0 | [Kr] 4d4 5s0 | [Kr] 4d4 5s0 | [Kr] 4d3 5s1 |  All electron | |
 | Densidad h-Zr | 6.503 | 6.504 | 6.486 | 6.507 | 6.45 | 6.48 | 6.52 |
 | Densidad m-ZrO2 | 5.777 | 5.779 | 5.762 | 5.778 |   |   | 5.78 |
-
+| Densidad c-ZrO2 | 5.220 | 6.222 | 6.205 | 6.221 |   |   |   |
 
 ## Referencias
 - Sherman, M. P. (1984). Hydrogen combustion in nuclear plant accidents and associated containment loads. Nucl. Eng. Des., 82(1), 13–24. doi: 10.1016/0029-5493(84)90263-2
