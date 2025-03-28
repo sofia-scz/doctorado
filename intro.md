@@ -18,9 +18,8 @@ En la próxima tabla mostramos los resultados para varios pseudopotenciales que 
 | | Zr+2 - soft |  Zr+2 - hard | Zr* - soft | Zr* - hard | PseudoDojo (PBE) | Wien2k (PBE) | Exp |
 | - | --- | --- | --- | --- | --- | --- | --- |
 | Pseudo Conf Ele Ref | [Kr] 4d2 5s0 | [Kr] 4d2 5s0 | [Kr] 4d4 5s0 | [Kr] 4d4 5s0 | [Kr] 4d3 5s1 |  All electron | |
-| E cut | 80 Ry | 100 Ry | 80 Ry | 100 Ry | 80 Ry | All electron |
 | Densidad h-Zr | 6.503 | 6.504 | 6.486 | 6.507 | 6.45 | 6.48 | 6.52 |
-| Densidad m-ZrO2 | 5.775 | 5.779 | 5.779 | 5.779 |   |   | 5.78 |
+| Densidad m-ZrO2 | 5.775 | 5.777 | 5.762 | 5.776 |   |   | 5.78 |
 
 
 ## Referencias
